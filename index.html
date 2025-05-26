@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Programación I | Parcial 1 | Bonzón, Gerónimo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        crossorigin="anonymous" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles/styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Programación I | Parcial 1 | Bonzón, Gerónimo</h1>
+    </header>
+    <main>
+        <h2>Mi colección de discos</h2>
+        <div class="controls">
+            <button onclick="cargar();">Cargar nuevo disco</button>
+            <button onclick="mostrar();">Mostrar discos</button>
+            <div id="ordenar-botones" class="hidden">
+                <button onclick="mostrar('ordenCodigo')">Ordenar por código</button>
+                <button onclick="mostrar('ordenArtista')">Ordenar por artista</button>
+            </div>
+            <div class="search">
+                <input type="number" id="codigo-busqueda" placeholder="Código del disco">
+                <button onclick="buscarPorCodigo();">Buscar disco</button>
+            </div>
+        </div>
+        <div id="resumen-container"></div>
+        <div id="discos-container"></div>
+    </main>
+    <footer>
+        <ul>
+            <li>Profesor Fabrizio Carlassara</li>
+            <li>
+                <a href="mailto:fabrizio.carlassara@davinci.edu.ar?subject=P1%20-%20Consulta%20-%20DW2[M|T|N][A|B]%20-%20Apellido,%20Nombre"
+                    target="_blank">fabrizio.carlassara@davinci.edu.ar</a>
+            </li>
+            <li>Programación 1</li>
+            <li>
+                <a href="#" id="repo-link">https://github.com/gebonzon/prog-1-primer-parcial.git</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="scripts/pista.js"></script>
+    <script src="scripts/disco.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>

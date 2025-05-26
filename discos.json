@@ -1,0 +1,268 @@
+[
+    {
+        "nombre": "Mayhem",
+        "autor": "Lady Gaga",
+        "portada": "https://upload.wikimedia.org/wikipedia/en/d/db/Lady_Gaga_-_Mayhem.png",
+        "codigo": 101,
+        "pistas": [
+            {
+                "nombre": "Disease",
+                "duracion": 230
+            },
+            {
+                "nombre": "Abracadabra",
+                "duracion": 225
+            },
+            {
+                "nombre": "Garden Of Eden",
+                "duracion": 240
+            },
+            {
+                "nombre": "Perfect Celebrity",
+                "duracion": 229
+            },
+            {
+                "nombre": "Vanish Into You",
+                "duracion": 246
+            },
+            {
+                "nombre": "Killah",
+                "duracion": 211
+            },
+            {
+                "nombre": "Zombieboy",
+                "duracion": 215
+            },
+            {
+                "nombre": "Lovedrug",
+                "duracion": 194
+            },
+            {
+                "nombre": "How Bad Do U Want Me",
+                "duracion": 239
+            },
+            {
+                "nombre": "Don't Call Tonight",
+                "duracion": 227
+            },
+            {
+                "nombre": "Shadow Of A Man",
+                "duracion": 201
+            },
+            {
+                "nombre": "The Beast",
+                "duracion": 236
+            },
+            {
+                "nombre": "Blade Of Grass",
+                "duracion": 258
+            },
+            {
+                "nombre": "Die With A Smile",
+                "duracion": 240
+            },
+            {
+                "nombre": "Kill For Love",
+                "duracion": 210
+            },
+            {
+                "nombre": "Can't Stop The High",
+                "duracion": 215
+            }
+        ]
+    },
+        {
+        "nombre": "brat",
+        "autor": "Charli XCX",
+        "portada": "https://upload.wikimedia.org/wikipedia/commons/6/60/Charli_XCX_-_Brat_%28album_cover%29.png",
+        "codigo": 102,
+        "pistas": [
+            {
+                "nombre": "360",
+                "duracion": 134
+            },
+            {
+                "nombre": "Club Classics",
+                "duracion": 154
+            },
+            {
+                "nombre": "Sympathy Is a Knife",
+                "duracion": 152
+            },
+            {
+                "nombre": "I Might Say Something Stupid",
+                "duracion": 110
+            },
+            {
+                "nombre": "Talk Talk",
+                "duracion": 172
+            },
+            {
+                "nombre": "Von Dutch",
+                "duracion": 215
+            },
+            {
+                "nombre": "Everything Is Romantic",
+                "duracion": 210
+            },
+            {
+                "nombre": "Rewind",
+                "duracion": 180
+            },
+            {
+                "nombre": "So I",
+                "duracion": 217
+            },
+            {
+                "nombre": "Girl, So Confusing",
+                "duracion": 186
+            },
+            {
+                "nombre": "Apple",
+                "duracion": 155
+            },
+            {
+                "nombre": "B2B",
+                "duracion": 184
+            },
+            {
+                "nombre": "Mean Girls",
+                "duracion": 199
+            },
+            {
+                "nombre": "I Think About It All the Time",
+                "duracion": 143
+            },
+            {
+                "nombre": "365",
+                "duracion": 214
+            }
+        ]
+    },
+    {
+        "nombre": "Eusexua",
+        "autor": "FKA twigs",
+        "portada": "https://upload.wikimedia.org/wikipedia/en/c/c4/FKA_Twigs_-_Eusexua.png",
+        "codigo": 103,
+        "pistas": [
+            {
+                "nombre": "Eusexua",
+                "duracion": 263
+            },
+            {
+                "nombre": "Girl Feels Good",
+                "duracion": 236
+            },
+            {
+                "nombre": "Perfect Stranger",
+                "duracion": 197
+            },
+            {
+                "nombre": "Drums of Death",
+                "duracion": 252
+            },
+            {
+                "nombre": "Room of Fools",
+                "duracion": 225
+            },
+            {
+                "nombre": "Sticky",
+                "duracion": 218
+            },
+            {
+                "nombre": "Keep It, Hold It",
+                "duracion": 231
+            },
+            {
+                "nombre": "Childlike Things",
+                "duracion": 214
+            },
+            {
+                "nombre": "Striptease",
+                "duracion": 229
+            },
+            {
+                "nombre": "24hr Dog",
+                "duracion": 221
+            },
+            {
+                "nombre": "Wanderlust",
+                "duracion": 252
+            }
+        ]
+    },
+        {
+        "nombre": "Alligator Bites Never Heal",
+        "autor": "Doechii",
+        "portada": "https://upload.wikimedia.org/wikipedia/en/b/bd/Doechii_-_Alligator_Bites_Never_Heal.png",
+        "codigo": 104,
+        "pistas": [
+            {
+                "nombre": "Stanka Pooh",
+                "duracion": 121
+            },
+            {
+                "nombre": "Bullfrog",
+                "duracion": 95
+            },
+            {
+                "nombre": "Boiled Peanuts",
+                "duracion": 122
+            },
+            {
+                "nombre": "Denial Is a River",
+                "duracion": 160
+            },
+            {
+                "nombre": "Catfish",
+                "duracion": 134
+            },
+            {
+                "nombre": "Skipp",
+                "duracion": 101
+            },
+            {
+                "nombre": "Hide n Seek ",
+                "duracion": 149
+            },
+            {
+                "nombre": "Bloom",
+                "duracion": 133
+            },
+            {
+                "nombre": "Wait",
+                "duracion": 185
+            },
+            {
+                "nombre": "Death Roll",
+                "duracion": 139
+            },
+            {
+                "nombre": "Profit",
+                "duracion": 96
+            },
+            {
+                "nombre": "Boom Bap",
+                "duracion": 130
+            },
+            {
+                "nombre": "Nissan Altima",
+                "duracion": 127
+            },
+            {
+                "nombre": "GTFO (con Kuntfetish)",
+                "duracion": 161
+            },
+            {
+                "nombre": "Huh!",
+                "duracion": 137
+            },
+            {
+                "nombre": "Slide",
+                "duracion": 174
+            }
+        ]
+    }
+
+
+]

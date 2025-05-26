@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+header {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+button {
+    background-color: #03dac5;
+    color: #121212;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #018786;
+}
+
+.controls button:nth-child(3),
+.controls button:nth-child(4) {
+    background-color: #03dac5;
+}
+
+.controls button:nth-child(3):hover,
+.controls button:nth-child(4):hover {
+    background-color: #018786;
+}
+
+#ordenar-botones {
+    display: none;
+    gap: 0.5rem;
+    margin-right: 1rem;
+}
+
+.search {
+    display: flex;
+    gap: 0.5rem;
+}
+
+#codigo-busqueda {
+    padding: 0.5rem;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+#discos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.disco {
+    width: 300px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.disco:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 16px rgba(0, 216, 197, 0.5);
+}
+
+/* Resalta el disco más largo */
+.disco.destacado-total {
+    background: linear-gradient(to right, #333333, #555555);
+    border: 2px solid #bb86fc;
+    box-shadow: 0 0 12px rgba(187, 134, 252, 0.8);
+}
+
+.disco-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.portada {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 1rem;
+    border-radius: 4px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portada:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.pista {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #333;
+}
+
+.pista:last-child {
+    border-bottom: none;
+}
+
+.destacado {
+    color: #bb86fc;
+    font-weight: bold;
+}
+
+.metrics {
+    background-color: #292929;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+.metric {
+    margin: 0.5rem 0;
+}
+
+.resumen {
+    background-color: #1e1e1e;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #bb86fc;
+}
+
+.resumen h3 {
+    margin-top: 0;
+    color: #bb86fc;
+}
+
+.resumen p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #444;
+    margin: 1.5rem 0;
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+footer a {
+    color: #03dac5;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
